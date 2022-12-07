@@ -52,7 +52,7 @@ const Card = ({ title, textButton, price }) => {
       </div>
       <div className='flex flex-col gap-1 mt-2'>
         <button
-          className={`border rounded-lg py-3 hover:opacity-80 ${
+          className={`border rounded-lg py-3 transition-all duration-300 hover:opacity-80 ${
             title == 'ENTREPRENEUR' ? 'bg-blue-500 text-white' : 'border-blue-500 text-blue-500'
           } font-bold`}
         >

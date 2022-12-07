@@ -11,7 +11,7 @@ const About = () => {
       </p>
       <div className='grid md:grid-cols-2 my-5 gap-5 md:gap-10'>
         <div className='col-span-1'>
-          <p className='text-sm md:text-base font-semibold'>
+          <p className='text-sm md:text-base font-medium'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex delectus tenetur,
             perferendis nisi itaque voluptatem omnis nihil eum dolor ipsam dolores amet provident
             commodi aut. Similique eius illum officia possimus sunt pariatur eum, porro labore quas

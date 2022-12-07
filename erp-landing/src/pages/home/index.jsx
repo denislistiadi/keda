@@ -1,18 +1,18 @@
 import React from 'react'
-import Header from '../../components/header'
-import Layout from '../../components/layout'
+import HomeLayout from '../../components/layout/HomeLayout'
 import About from './components/About'
+import Contact from './components/Contact'
 import FirstView from './components/FirstView'
 import Pricing from './components/Pricing'
 
 const Home = () => {
   return (
-    <Layout>
-      <Header />
+    <HomeLayout>
       <FirstView />
       <About />
       <Pricing />
-    </Layout>
+      <Contact />
+    </HomeLayout>
   )
 }
 

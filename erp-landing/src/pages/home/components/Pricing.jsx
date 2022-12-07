@@ -10,7 +10,7 @@ const Pricing = () => {
       <p className='text-xs md:text-sm text-blue-400 text-center mt-1'>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit.
       </p>
-      <div className='grid md:grid-cols-3 gap-10 my-5'>
+      <div className='grid md:grid-cols-3 gap-10 my-5 md:my-10'>
         <Card title='BASIC' textButton='TRY IT' price='0' />
         <Card title='BUSINESS' textButton='SIGN IN' price='50.000' />
         <Card title='ENTREPRENEUR' textButton='SUBSCRIBE' price='150.000' />
